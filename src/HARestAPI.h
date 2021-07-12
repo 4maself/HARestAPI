@@ -2,8 +2,8 @@
 #define HARestAPI_h
 
 #include <Arduino.h>
-#include <WiFiClient.h>
-#include <WiFiClientSecure.h>
+#include <WiFiNINA.h>
+#include <SPI.h>
 
 class HARestAPI
 {
@@ -13,13 +13,12 @@ class HARestAPI
 	void useSSL(void);
 	*/
 	HARestAPI(WiFiClient &client);
-	HARestAPI(WiFiClientSecure &client);
 	void setHAServer(String);
 	void setHAServer(String, uint16_t);
 	void setHAServer(String, uint16_t, String);
 	void setHAPassword(String);
 	void setFingerPrint(String);
-    void setRGB(uint8_t, uint8_t, uint8_t);
+  void setRGB(uint8_t, uint8_t, uint8_t);
 	void setDebugMode(bool);
 	void setComponent(String);
 	void setURL(String);

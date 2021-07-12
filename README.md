@@ -1,5 +1,9 @@
 # HARestAPI
 
+Edited _debsahu_'s work to use on the Arduino Nano 33 IoT
+
+---
+
 An Arduino library to talk to Home Assistant using [Rest API](https://www.home-assistant.io/developers/rest_api/) made for ESP8266.
 
 [![HARestAPI](https://img.youtube.com/vi/XV_X3e7xwDE/0.jpg)](https://www.youtube.com/watch?v=XV_X3e7xwDE)
